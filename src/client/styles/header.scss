@@ -1,0 +1,20 @@
+header {
+    padding: 10px 40px;
+    height: 2em;
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(229, 202, 160);
+    color: rgba(94, 89, 63, 0.918);
+    font-weight: bold;
+}
+
+ul li {
+    display: inline;
+}
+
+#img {
+    width: 20px;
+}

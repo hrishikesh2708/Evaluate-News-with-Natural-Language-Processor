@@ -1,0 +1,33 @@
+input {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+}
+
+section {
+    background-color:rgba(229, 202, 160,0.6);
+    z-index: -1;
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+}
+
+#submit {
+    background-color: rgb(229, 202, 160);
+    border-radius: 10px;
+    color: rgb(110, 107, 72);
+    font-weight: bold;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+#polarity,
+#subjectivity,
+#text,
+#polarity-conf {
+    background-color: rgb(202, 193, 195);
+    padding: 4px;
+    border-radius: 10px;
+}
